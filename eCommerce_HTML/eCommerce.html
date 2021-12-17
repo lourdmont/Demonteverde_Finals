@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Mauveine | Ecommerce Website Design</title>
+    <link rel ="stylesheet" href ="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+     <div class="header">
+    <div class="container">
+        <div class="navbar">
+        <div class="logo">
+            <img src="Mauviene.png" width="125px">
+        </div>
+        <nav>
+        <ul id="MenuItems">
+            <li><a href="">Home</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Account</a></li>
+        </ul>
+    </nav>
+    <img src="cart.png" width="30px" height="30px">  
+    <img src="menu.png" class="menu-icon" onclick="menutoggle()">        
+   </div>
+        <div class= "row">
+            <div class="col-2">
+                <h1>So Fresh And So Clean</h1>
+                <p> It's about drive, it's about power. We stay hungry, we devour</p>
+                <a href="" class="btn"> Explore Now &#8594;</a>
+            </div>
+            <div class="col-2">
+                <img src="group.jpg">   
+            </div>
+        </div>
+    </div>
+</div>
+   
+
+
+<div class="categories">
+    <div class="small-container">
+        <div class="row">
+        <div class="col-3">
+            <img src="s1.jpg">
+        </div>
+        <div class="col-3">
+            <img src="s2.jpg">
+        </div>
+        <div class="col-3">
+            <img src="s3.jfif">
+        </div>
+    </div>
+  </div>
+ </div>
+    
+    <div class= "small-container">
+     <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="s3.jpg">
+                <h4>Orange Shoes</h4>
+                <p>₱4000.00</p>
+            </div>
+             <div class="col-4">
+                <img src="s5.jpg">
+                <h4>Black Shoes</h4>
+                <p>₱4000.00</p>
+            </div>
+             <div class="col-4">
+                <img src="s6.jpg">
+                <h4>Blue Shoes</h4>
+                <p>₱4000.00</p>
+            </div>
+            <div class="col-4">
+                <img src="s7.png">
+                <h4>White Shoes</h4>
+                <p>₱4000.00</p>
+            </div>
+        </div>
+        <h2 class="title">Latest Products</h2>
+         <div class="row">
+            <div class="col-4">
+                <img src="s8.jfif">
+                <p>₱4000.00</p>
+            </div>
+             <div class="col-4">
+                <img src="s9.jpg">
+                <p>₱4000.00</p>
+            </div>
+             <div class="col-4">
+                <img src="s10.png">
+                <p>₱4000.00</p>
+            </div>
+            <div class="col-4">
+                <img src="s11.jfif">
+                <p>₱4000.00</p>
+            </div>
+              <div class="col-4">
+                <img src="s12.webp">
+                <p>₱4000.00</p>
+            </div>
+              <div class="col-4">
+                <img src="s13.jpg">
+                <p>₱4000.00</p>
+            </div>
+              <div class="col-4">
+                <img src="s14.webp">
+                <p>₱4000.00</p>
+            </div>
+        </div>
+    </div>
+ 
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="s15.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on Mauveine</p>
+                    <h1>Unique Shoe</h1>
+                    <small>This Unique Shoe features a unique color scheme</small>
+                    <a href="" class="btn"> Buy Now &#8594;</a>
+                </div> 
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <img src="Mauviene.png">
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <script>
+        var MenuItems = document.getElementById("MenuItems")
+        
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight = "0px")
+            {
+                MenuItems.style.maxHeight = "200px"
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px"
+            }
+            
+        }
+    </script>
+    
+</body>
+</html>
